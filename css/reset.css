@@ -27,7 +27,6 @@ a {
   display: inline-block;
 }
 
-a:hover,
 a:focus,
 a:active {
   color: white;

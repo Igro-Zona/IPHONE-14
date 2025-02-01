@@ -1,0 +1,180 @@
+@media (hover: hover) {
+  a:hover {
+    color: white;
+  }
+
+  .iphone__btn:hover {
+    background-color: #370e60;
+  }
+
+  .select__img:hover .select__thumb {
+    transform: scale(1.2);
+  }
+
+  .order__btn:hover {
+    cursor: pointer;
+    background-color: #d8d8d8;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .header {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+
+  .select__items,
+  .footer {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+
+  .news__container {
+    padding-left: 15px;
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  .news {
+    margin-bottom: 40px;
+  }
+  .news__container {
+    width: max-content;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .news__img {
+    margin: 0 auto;
+  }
+
+  .select__items {
+    row-gap: 20px;
+  }
+
+  .select__item {
+    justify-items: center;
+    width: 50%;
+  }
+
+  .order__container {
+    display: block;
+  }
+
+  .order__form {
+    width: 100%;
+  }
+
+  .order__img {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .header__menus {
+    display: flex;
+    flex-grow: 1;
+    flex-basis: 0;
+  }
+
+  .header__nav-list {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: black;
+    transform: translateY(-100%);
+    transition: 0.2s ease;
+  }
+
+  .header__nav-btn {
+    display: inline-block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .header__nav > .inner--right {
+    margin-top: 20px;
+    flex-basis: auto;
+    width: 100%;
+    display: block;
+    text-align: center;
+  }
+
+  .iphone__title {
+    font-size: 48px;
+  }
+
+  .news__container {
+    padding: 0 15px;
+    width: 100%;
+  }
+
+  .news__img {
+    display: none;
+  }
+
+  .select__item {
+    width: 100%;
+  }
+
+  .order__form {
+    padding: 60px 15px;
+    height: auto;
+  }
+
+  .order__img {
+    aspect-ratio: 1;
+    height: 100%;
+  }
+
+  .footer__container {
+    flex-direction: column;
+  }
+
+  .footer__phone {
+    margin: 15px 0;
+  }
+
+  .footer__logo {
+    order: 1;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  h2 {
+    font-size: 24px !important;
+  }
+
+  .header__nav-item {
+    font-size: 36px !important;
+  }
+
+  .header__phone {
+    font-size: 20px;
+  }
+
+  .iphone {
+    padding-top: 40px;
+    margin-bottom: 40px;
+  }
+
+  .iphone__title {
+    font-size: 32px;
+  }
+
+  .iphone__btn {
+    padding-left: 80px;
+    padding-right: 80px;
+    font-size: 20px;
+  }
+
+  .select {
+    margin-bottom: 40px;
+  }
+}

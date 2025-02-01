@@ -3,6 +3,21 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      href="./img/favicon/favicon-96x96.png"
+      sizes="96x96"
+    />
+    <link rel="icon" type="image/svg+xml" href="./img/favicon/favicon.svg" />
+    <link rel="shortcut icon" href="/img/favicon/favicon.ico" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./img/favicon/apple-touch-icon.png"
+    />
+    <meta name="apple-mobile-web-app-title" content="IPHONE 14 PRO" />
+    <link rel="manifest" href="./img/favicon/site.webmanifest" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -12,6 +27,7 @@
     <link rel="stylesheet" href="./css/normalize.css" />
     <link rel="stylesheet" href="./css/reset.css" />
     <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/media.css" />
     <meta
       name="description"
       content="Iphone 14 Pro. Что нового добавили инженеры Apple. Ноовые возможнасти и изменения в Pro версии Iphone 14"
@@ -23,6 +39,16 @@
     <header class="header">
       <div class="wrapper">
         <nav class="header__nav">
+          <div class="header__menus">
+            <button class="header__nav-btn" type="button" title="Бургер-Меню">
+              <span class="burger__line burger__line_first"></span>
+              <span class="burger__line burger__line_second"></span>
+              <span
+                class="burger__line burger__line_second burger__line_second-double"
+              ></span>
+              <span class="burger__line burger__line_third"></span>
+            </button>
+          </div>
           <ul class="header__nav-list">
             <li class="header__nav-item">
               <a class="header__nav-link" href="#news-id">Что нового</a>
@@ -369,5 +395,7 @@
         </div>
       </div>
     </footer>
+
+    <script src="./js/main.js"></script>
   </body>
 </html>
