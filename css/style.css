@@ -273,8 +273,8 @@
   overflow: hidden;
   margin: 0 auto 20px;
   border-radius: 30px;
-  max-width: 240px;
-  max-height: 320px;
+  width: 240px;
+  height: 320px;
 }
 
 .select__thumb {
