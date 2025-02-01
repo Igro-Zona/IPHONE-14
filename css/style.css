@@ -265,6 +265,7 @@
 
 .select__img {
   overflow: hidden;
+  align-self: center;
   margin-bottom: 20px;
   border-radius: 30px;
   max-width: 240px;
