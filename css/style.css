@@ -261,6 +261,7 @@
 
 .select__item {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: column;
   text-align: center;
   align-items: center;
@@ -270,7 +271,7 @@
 .select__img {
   align-self: center;
   overflow: hidden;
-  margin-bottom: 20px;
+  margin: 0 auto 20px;
   border-radius: 30px;
   max-width: 240px;
   max-height: 320px;
