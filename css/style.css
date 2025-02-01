@@ -257,10 +257,11 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  align-items: center;
+  align-content: center;
 }
 
 .select__item {
-  align-items: center;
   text-align: center;
 }
 
